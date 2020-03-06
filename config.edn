@@ -1,0 +1,8 @@
+{
+verifier-mock.service/email         #config/env "EMAIL"
+verifier-mock.service/host          #config/env "HOST"
+verifier-mock.service/nickname      #config/env "NICKNAME"
+verifier-mock.service/port          #config/env "PORT"
+verifier-mock.service/profile-photo #config/env "PROFILE_PHOTO"
+verifier-mock.service/user-id       #config/env "USER_ID"
+}

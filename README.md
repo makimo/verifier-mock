@@ -24,8 +24,10 @@ response:
 The recommended way to use this service is to use provided docker image:
 
 ```
-$ docker run --rm -it docker.pkg.github.com/makimo/verifier-mock/verifier-mock:latest
+$ docker run --rm -it -p 8000:8000 docker.pkg.github.com/makimo/verifier-mock/verifier-mock:latest
 ```
+
+The verifier service will be available at `http://localhost:8000`.
 
 Or within the `docker-compose.yml`:
 
